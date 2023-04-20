@@ -1,0 +1,17 @@
+{
+  "Home": "DAHEIM",
+  "Contact": "KONTAKTIERE MICH",
+  "Projects": "PROJEKTE",
+  "About": "ÜBER MICH",
+  "Hi there, I'm Djordje": "Hallo, ich bin Djordje",
+  "I am a Frontend": "Ich bin ein Frontend",
+  "Developer": "Entwickler",
+  "FAVORITES": "FAVORITEN",
+  "text": "Ich bin ein Frontend-Webentwickler mit Expertise in HTML, CSS, JavaScript und React. Darüber hinaus bin ich vertraut mit Backend-Technologien, um Full-Stack-Webanwendungen zu erstellen. Derzeit befinde ich mich in der Endphase meines Studiums am DCI Digital Career Institute, wo ich lerne, ein Full-Stack-Webentwickler zu werden. Außerhalb meiner Arbeit genieße ich Sport, Kochen und Reisen, um neue Kulturen und Erfahrungen zu entdecken. Ich bin in Deutschland ansässig und suche immer nach Möglichkeiten, meine Fähigkeiten weiterzuentwickeln und zu aufregenden Projekten in der Tech-Branche beizutragen.",
+  "password": {
+    "label": "Kennwort",
+    "placeholder": "passwort platzhalter..."
+  },
+  "location": "Geben Sie den Standort ein",
+  "Address": "Gib die Adresse ein"
+}

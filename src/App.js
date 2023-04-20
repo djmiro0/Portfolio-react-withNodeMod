@@ -7,10 +7,12 @@ import NoPage from "./components/NoPage";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
-
+import LanguageSelector from "./components/Language/LanguageSelector";
+import { useTranslation } from "react-i18next";
 import About from "./components/About";
 
 function App() {
+  const { t } = useTranslation();
   return (
     <div className="App">
       <Helmet>
@@ -20,10 +22,10 @@ function App() {
         <meta name="description" content="portfolio" />
       </Helmet>
       <Header />
-
+      <LanguageSelector />
       <About />
 
-      <h1>FAVORITES</h1>
+      <h1>{t("FAVORITES")}</h1>
       <Routes>
         <Route path="/" element={<Blocks />}>
           <Route index element={<App />} />

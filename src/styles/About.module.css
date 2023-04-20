@@ -3,12 +3,16 @@
   display: flex;
   justify-items: center;
   flex-direction: column;
-  margin: 200px 0;
+  margin: 150px 0;
 }
 
 .web {
   color: #f00;
   text-decoration: line-through;
+}
+
+.h1:hover {
+  cursor: pointer;
 }
 
 .button {

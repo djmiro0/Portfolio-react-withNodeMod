@@ -1,0 +1,39 @@
+.language-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.language-selector {
+  appearance: none;
+  background-color: #333;
+  border: 2px solid #333;
+  border-radius: 4px;
+  color: #333;
+  font-size: 16px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.3s ease;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+
+.language-selector option {
+  background-color: #333;
+  color: #fff;
+}
+
+.language-selector:hover,
+.language-selector:focus {
+  border-color: #f00;
+  outline: none;
+}
+
+.language-selector:focus {
+  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.5);
+}
+
+.language-selector:disabled {
+  opacity: 0.5;
+}

@@ -46,3 +46,33 @@ h1 {
   margin-top: 50px;
 }
 /*FOOTER*/
+
+.footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+}
+.icon {
+  color: white;
+  font-size: 50px;
+  padding: 40px;
+}
+
+.icon:hover {
+  color: #f00;
+  cursor: pointer;
+  font-size: 45px;
+}
+
+.dj {
+  text-align: center;
+  font-family: "DynaPuff", cursive;
+  font-size: 20px;
+  color: #f0f5ef;
+}
+
+.footer-span {
+  color: #f00;
+}
