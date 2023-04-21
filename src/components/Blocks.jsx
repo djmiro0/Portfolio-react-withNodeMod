@@ -24,7 +24,7 @@ export default function Blocks() {
           rel="noopener noreferrer"
         >
           <section className={classes.secondSection}>
-            <div className={classes.second}></div> <p>TIC-TAC-TOE GAME</p>
+            <div className={classes.second}></div> <p>TIC-TAC-TOE</p>
           </section>
         </a>
 

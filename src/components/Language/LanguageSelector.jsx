@@ -13,15 +13,25 @@ const LanguageSelector = () => {
   };
 
   return (
-    <div className="language-container">
-      <select
-        defaultValue={selectedLanguage}
-        onChange={chooseLanguage}
-        className="language-selector"
+    <div className="language-selector-container">
+      <button
+        onClick={(e) => chooseLanguage(e)}
+        value="en"
+        className={`language-selector-button ${
+          selectedLanguage === "en" ? "active" : ""
+        }`}
       >
-        <option value="de">German</option>
-        <option value="en">English</option>
-      </select>
+        EN
+      </button>
+      <button
+        onClick={(e) => chooseLanguage(e)}
+        value="de"
+        className={`language-selector-button ${
+          selectedLanguage === "de" ? "active" : ""
+        }`}
+      >
+        DE
+      </button>
     </div>
   );
 };

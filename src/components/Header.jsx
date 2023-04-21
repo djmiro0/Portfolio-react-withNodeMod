@@ -17,7 +17,7 @@ export default function Header() {
           <li>{t("About")}</li>
         </Link>
         <Link to="/contact">
-          <li>{t("Contact")}</li>
+          <li>{t("Contact me")}</li>
         </Link>
       </ul>
     </div>

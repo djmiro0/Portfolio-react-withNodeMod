@@ -1,39 +1,29 @@
-.language-container {
+.language-selector-container {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-family: "DynaPuff", cursive;
 }
 
-.language-selector {
-  appearance: none;
-  background-color: #333;
-  border: 2px solid #333;
-  border-radius: 4px;
-  color: #333;
+.language-selector-button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
   font-size: 16px;
   padding: 10px;
-  width: 150px;
-  transition: all 0.3s ease;
-  color: #fff;
-  font-family: "Courier New", Courier, monospace;
-  text-align: center;
-}
-
-.language-selector option {
-  background-color: #333;
-  color: #fff;
-}
-
-.language-selector:hover,
-.language-selector:focus {
-  border-color: #f00;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
   outline: none;
 }
 
-.language-selector:focus {
-  box-shadow: 0 0 0 2px rgba(255, 0, 0, 0.5);
+.language-selector-button:hover {
+  background-color: #fff;
+  color: #000;
 }
 
-.language-selector:disabled {
-  opacity: 0.5;
+.language-selector-button.active {
+  background-color: #fff;
+  color: #000;
 }

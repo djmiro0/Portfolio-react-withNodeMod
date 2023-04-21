@@ -1,13 +1,16 @@
 {
   "Home": "HOME",
-  "Contact": "CONTACT ME",
+  "Contact me": "CONTACT ME",
   "About": "ABOUT ME",
   "Projects": "PROJECTS",
   "FAVORITES": "FAVORITES",
+  "Contact": "Contact",
+  "Me": "Me",
   "Hi there, I'm Djordje": "Hi there, I'm Djordje",
   "I am a Frontend": "I am a Frontend",
   "text": "I am a frontend web developer with expertise in HTML, CSS, JavaScript, and React. Additionally, I am familiar with backend technologies to create full-stack web applications. Currently, I am in the final stages of my studies at the DCI Digital Career Institute, where I am learning to become a full-stack web developer. Outside of my work, I enjoy sports, cooking, and traveling to explore new cultures and experiences. I am based in Germany and always looking for opportunities to further develop my skills and contribute to exciting projects in the tech industry.",
   "Developer": "Developer",
+  "You can also use:": "You can also use:",
   "password": {
     "label": "password",
     "placeholder": "password placeholder..."
