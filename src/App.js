@@ -1,18 +1,16 @@
 import "./App.css";
 import Header from "./components/Header";
 import { Helmet } from "react-helmet";
-import Blocks from "./components/Blocks";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Outlet } from "react-router-dom";
 import NoPage from "./components/NoPage";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import LanguageSelector from "./components/Language/LanguageSelector";
-import { useTranslation } from "react-i18next";
-import About from "./components/About";
+import Home from "./components/Home";
+import AboutMe from "./components/AboutMe";
 
 function App() {
-  const { t } = useTranslation();
   return (
     <div className="App">
       <Helmet>
@@ -23,18 +21,15 @@ function App() {
       </Helmet>
       <Header />
       <LanguageSelector />
-      <About />
 
-      <h1>{t("FAVORITES")}</h1>
       <Routes>
-        <Route path="/" element={<Blocks />}>
-          <Route index element={<App />} />
-          <Route path="projects" element={<Projects />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} />
-        </Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/aboutme" element={<AboutMe />} />
+        <Route path="*" element={<NoPage />} />
       </Routes>
-
+      <Outlet />
       <Footer />
     </div>
   );
