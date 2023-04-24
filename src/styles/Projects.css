@@ -21,12 +21,13 @@
   align-items: center;
   justify-content: center;
   border: 2px solid #f00;
+  box-shadow: 10px 10px 20px #f00;
 }
 
 .projects div:hover {
   background-color: #f00;
   cursor: pointer;
-  border: 2px solid #000;
   transform: translateY(10px);
-  color: #a7a7a7;
+  color: rgb(0, 0, 0);
+  box-shadow: none;
 }
